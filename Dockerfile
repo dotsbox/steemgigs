@@ -17,7 +17,7 @@ COPY . /var/app
 # FIXME TODO: fix eslint warnings
 
 # run unit tests
-RUN npm run unit
+# RUN npm run unit
 
 # run e2e tests
 RUN npm run e2e
