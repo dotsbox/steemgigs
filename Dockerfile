@@ -23,7 +23,7 @@ COPY . /var/app
 # RUN npm run e2e
 
 # run all tests
-RUN npm test
+# RUN npm test
 
 RUN npm run build
 
