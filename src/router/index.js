@@ -10,7 +10,7 @@ Vue.use(Router)
 const router = new Router({mode: 'history', routes: Routes})
 
 Vue.use(VueAnalytics, {
-  id: 'UA-114994616-1',
+  id: 'UA-122664767-1',
   router
 })
 /*
