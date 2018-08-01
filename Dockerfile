@@ -20,7 +20,7 @@ COPY . /var/app
 # RUN npm run unit
 
 # run e2e tests
-RUN npm run e2e
+# RUN npm run e2e
 
 # run all tests
 RUN npm test
