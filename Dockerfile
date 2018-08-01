@@ -27,7 +27,7 @@ COPY . /var/app
 
 RUN npm run build
 
-RUN npm run build --report
+# RUN npm run build --report
 
 ENV PORT 8080
 
