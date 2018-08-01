@@ -7,7 +7,8 @@ const sc = sc2.Initialize({
   callbackURL: 'https://ca.steem.racing/complete',
   // callbackURL: 'http://localhost:8080/complete',
   // scope: ['login', 'vote', 'comment', 'comment_delete', 'comment_options', 'custom_json', 'claim_reward_balance'] // wrong
-  scope: ['vote', 'comment', 'delete_comment', 'comment_options', 'custom_json', 'claim_reward_balance', 'login', 'offline'] //right (fixed!)
+  // scope: ['vote', 'comment', 'delete_comment', 'comment_options', 'custom_json', 'claim_reward_balance', 'login', 'offline'] //right (fixed!)
+  scope: ['login', 'vote', 'comment', 'comment_delete', 'comment_options', 'custom_json', 'claim_reward_balance']
 })
 
 export default sc
